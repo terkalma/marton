@@ -96,7 +96,7 @@ function App() {
             <YAxis dataKey="y" name="y" />
             <CartesianGrid strokeDasharray="3 3" />
             <Tooltip cursor={{ strokeDasharray: '3 3' }} />
-            <Scatter name="A school" data={[
+            <Scatter name="X, XY, XYY" data={[
               {
                 x: options.x[data.index],
                 y: options.x[data.index]
